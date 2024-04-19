@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'AvertaPE';
+    src: url("../fonts/averta/349C84_5_0.eot");
+    src: url("../fonts/averta/349C84_5_0.eot?#iefix") format("embedded-opentype"), url("../fonts/averta/349C84_5_0.woff2") format("woff2"), url("../fonts/averta/349C84_5_0.woff") format("woff"), url("../fonts/averta/349C84_5_0.ttf") format("truetype"), url("../fonts/averta/349C84_5_0.svg#wf") format("svg");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    src: url("../fonts/averta/349C84_1_0.eot");
+    src: url("../fonts/averta/349C84_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/averta/349C84_1_0.woff2") format("woff2"), url("../fonts/averta/349C84_1_0.woff") format("woff"), url("../fonts/averta/349C84_1_0.ttf") format("truetype"), url("../fonts/averta/349C84_1_0.svg#wf") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'AvertaPE-RegularItalic';
+    src: url("../fonts/averta/349C84_2_0.eot");
+    src: url("../fonts/averta/349C84_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/averta/349C84_2_0.woff2") format("woff2"), url("../fonts/averta/349C84_2_0.woff") format("woff"), url("../fonts/averta/349C84_2_0.ttf") format("truetype"), url("../fonts/averta/349C84_2_0.svg#wf") format("svg");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    src: url("../fonts/averta/349C84_0_0.eot");
+    src: url("../fonts/averta/349C84_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/averta/349C84_0_0.woff2") format("woff2"), url("../fonts/averta/349C84_0_0.woff") format("woff"), url("../fonts/averta/349C84_0_0.ttf") format("truetype"), url("../fonts/averta/349C84_0_0.svg#wf") format("svg");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'AvertaPE';
+    src: url("../fonts/averta/349C84_3_0.eot");
+    src: url("../fonts/averta/349C84_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/averta/349C84_3_0.woff2") format("woff2"), url("../fonts/averta/349C84_3_0.woff") format("woff"), url("../fonts/averta/349C84_3_0.ttf") format("truetype"), url("../fonts/averta/349C84_3_0.svg#wf") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: AvertaPE, Helvetica, Arial, sans-serif;
+}
+
+.column {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.column-12 {
+    background-image: url("../images/toolbox/column-12.svg");
+}
+
+.column-row {
+    background-image: url("../images/toolbox/column-row.svg");
+}
+
+.column-6-6 {
+    background-image: url("../images/toolbox/column-6-6.svg");
+}
+.column-4-4-4 {
+    background-image: url("../images/toolbox/column-4-4-4.svg");
+}
+
+.column-3-3-3-3 {
+    background-image: url("../images/toolbox/column-3-3-3-3.svg");
+}
+
+.latest-posts-library-icon {
+    width: 45px;
+    height: 45px !important;
+    background-image: url("../images/toolbox/latest-blog-posts.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.posts-library-icon {
+    background-image: url("../images/toolbox/blog-posts-list.svg");
+    background-size: contain;
+}
+
+.column-6-6 {
+    background-image: url("../images/toolbox/column-6-6.svg");
+}
+
+.toolbox-horizontal-line {
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-horizontal-line:after {
+    content: ' ';
+    background-color: #acc9de;
+    height: 3px;
+    width: 50px;
+}
+
+.ace_editor {
+    font-family: monospace !important;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --color-blue: rgba(20,158,252,1);
+    --font-family: AvertaPE, Helvetica, Arial, sans-serif;
+    --default-font-size: 14px;
+    --default-text-color: #414355;
+    --default-blue-color: #149efc;
+}
